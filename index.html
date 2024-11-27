@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*.div1 {
+        border: 3px solid;
+        height: 150px;
+        width: 150px;
+      }
+      @media screen and (min-width: 0px) and (max-width: 320px) {
+        .div1 {
+          background-color: aqua;
+        }
+      }
+      @media screen and (min-width: 321px) and (max-width: 420px) {
+        .div1 {
+          background-color:red;
+        }
+      }*/
+      .m1,
+      .m2,
+      .m3 {
+        height: 250px;
+        width: 250px;
+      }
+      /*@media screen and (min-width: 0px) and (max-width: 420px) {
+        .m2,.m3{
+          display:none;
+        }
+      }
+      @media screen and (min-width: 421px) and (max-width: 720px) {
+        .m1,.m3 {
+          display: none;
+        }
+      }
+      @media screen and (min-width: 721px) {
+        .m1,.m2 {
+      display: none;
+      
+        }
+      }*/
+      @media screen and (orientation: landscape) {
+        body {
+          background-color: antiquewhite;
+        }
+        .div1 {
+          border: 3px solid black;
+          padding: 20px;
+          background-color: aqua;
+        }
+      }
+      @media screen and (orientation: portrait) {
+        .div1 {
+          border: 3px solid green;
+          padding: 20px;
+          background-color: greenyellow;
+          display: flex;
+        }
+      }
+      .div1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      @media screen and (min-width: 0px) and (max-width: 581px) {
+        .div1 {
+          display: flex;
+          justify-content: center;
+        }
+      }
+
+      .child1 {
+        border: 3px solid;
+        width: 250px;
+      }
+      .child2 {
+        border: 3px solid;
+        width: 250px;
+      }
+      .child3 {
+        border: 3px solid;
+        width: 250px;
+      }
+      .p1 {
+        border: 1px solid;
+        overflow: scroll;
+        width: 250px;
+        height: 150px;
+        background-color: antiquewhite;
+      }
+      .p2 {
+        border: 1px solid;
+        overflow: scroll;
+        width: 250px;
+        height: 150px;
+        background-color: antiquewhite;
+      }
+      .p3 {
+        border: 1px solid;
+        overflow: scroll;
+        width: 250px;
+        height: 150px;
+        background-color: antiquewhite;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="div1"></div> -->
+    <div class="div1">
+      <div class="child1">
+        <img
+          class="m1"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuK21PMfMcKphNlwfyUbDoCCZyGxH-a9gnfA&s"
+          alt=""
+        />
+        <div>
+          <p
+            style="
+              text-align: center;
+              border: 1px solid;
+              background-color: white;
+            "
+          >
+            marvel
+          </p>
+        </div>
+        <div class="p1">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas,
+          obcaecati est in ex maiores voluptatem a debitis aspernatur mollitia
+          esse atque? Odio, odit nisi nulla facere impedit minima soluta alias
+          sed, modi incidunt accusantium explicabo magnam. Labore incidunt, vel,
+          aliquam unde temporibus laborum animi sint ipsa repellendus illo
+          corporis velit fuga illum maxime, minus provident eligendi quasi
+          debitis a quisquam ea commodi quae dolores! Id quas ducimus corporis,
+          veritatis fuga modi dolore sit, laudantium nam asperiores debitis
+          rerum explicabo nostrum voluptates cupiditate iste ipsa harum iure.
+          Eveniet sunt repellat tenetur placeat sapiente obcaecati dolorum sequi
+          possimus nulla ex a, perferendis illo et quia sit molestiae vel,
+          corrupti, fuga doloremque atque sint aspernatur quidem quibusdam
+          ratione? Sit consequatur corporis, eos mollitia molestias illo esse
+          asperiores aspernatur autem aliquid! Voluptatum.
+        </div>
+      </div>
+      <div class="child2">
+        <img
+          class="m2"
+          src="https://parade.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk3MzM3ODU4NTU2NTY4Nzc1/marveldisney.jpg"
+          alt=""
+        />
+        <div>
+          <p
+            style="
+              text-align: center;
+              border: 1px solid;
+              background-color: white;
+            "
+          >
+            infinity war
+          </p>
+        </div>
+        <div class="p2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, harum
+          beatae. Eligendi deleniti consequuntur maiores cum voluptatum
+          molestias maxime! Laborum, alias. Nostrum fuga earum facere voluptatem
+          expedita ipsam, excepturi quas hic itaque deleniti voluptatibus
+          tempore velit facilis, pariatur assumenda aliquid minima perspiciatis
+          optio ducimus culpa vitae dicta id voluptates odit! Doloremque
+          pariatur necessitatibus ad culpa omnis ipsam eveniet. Consequuntur
+          magni amet dolorum officiis, porro architecto et ad iure recusandae
+          neque quaerat laudantium? Fugit explicabo quos ullam rerum sapiente
+          iste repellendus a, eligendi accusantium facilis ex corrupti pariatur
+          porro unde alias fugiat? Eveniet consectetur, error quos pariatur
+          repellat quas alias modi reiciendis praesentium natus labore sapiente
+          distinctio asperiores, consequatur facilis. Similique dolores
+          molestiae mollitia dolorum ducimus reiciendis facere? Consequuntur rem
+          molestiae vero facere animi, impedit commodi soluta quisquam ipsam!
+        </div>
+      </div>
+      <div class="child3">
+        <img
+          class="m3"
+          src="https://images.immediate.co.uk/production/volatile/sites/3/2018/04/https-2F2Fblogs-images.forbes.com2Fscottmendelson2Ffiles2F20182F042Fimage001-cebe539.jpg?quality=90&crop=75px,0px,811px,540px&resize=960,640"
+          alt=""
+        />
+        <p
+          style="text-align: center; border: 1px solid; background-color: white"
+        >
+          end game
+        </p>
+        <div class="p3">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+          qui veritatis id voluptatem earum nemo harum magni nihil. Aliquid
+          assumenda soluta ab aliquam neque explicabo consequatur eveniet cum
+          laborum maxime, facilis nulla nesciunt adipisci sed beatae impedit
+          vero ipsa labore provident ipsam deserunt eos! Officia aliquid atque
+          vero ducimus, hic asperiores, rem deserunt soluta odio nobis ullam
+          impedit doloribus dolores obcaecati vel laborum molestias expedita a
+          perferendis autem quae! Ab mollitia voluptate, iste quasi aperiam
+          expedita consequatur dolorum sit soluta praesentium animi, officia qui
+          harum, illum labore pariatur. Vel amet tempora consequatur, earum
+          excepturi libero veritatis voluptates atque sapiente incidunt mollitia
+          voluptatum nisi maiores obcaecati pariatur omnis nihil accusamus.
+          Mollitia quidem omnis quod, blanditiis quas est amet, delectus officia
+          eius facilis, distinctio magnam temporibus nesciunt nihil quos illo!
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
